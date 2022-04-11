@@ -5,7 +5,7 @@ sql = 'SELECT * FROM CONTATOS'
 
 with novaConexao() as conexao:
     try:    
-        cursor = conexao.cursor()
+        cursor = conexao.cursor()   
         cursor.execute(sql)
         contatos = cursor.fetchall()
     except ProgrammingError as p:
