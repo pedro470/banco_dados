@@ -12,4 +12,4 @@ with novaConexao() as conexao:
         print(f'Você errou na programação. O erro foi: {p.msg}')
     else:
         for contato in contatos:
-            print(f'{contato[2]} - {contato[0]} \t telefone: {contato [1]}')
+            print(f'{contato[2]} - {contato[0]} \t telefone: {contato[1]}')
